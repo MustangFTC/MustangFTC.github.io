@@ -3,7 +3,7 @@ name: Build and Deploy Blazor WASM
 on:
   push:
     branches:
-      - main  # Trigger whenever you push to main
+      - main
 
 jobs:
   build-and-deploy:
@@ -22,7 +22,7 @@ jobs:
         run: dotnet restore
 
       - name: Build and publish
-        run: dotnet publish -c Release -o publish
+        run: dotnet publish MustangRobotics.Presentation/ -c Release -o publish
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v6
@@ -30,3 +30,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish/wwwroot
           publish_branch: gh-pages
+          # Clean old files so only publish output remains
+          force_orphan: true
