@@ -1,7 +1,7 @@
 {
   "entryAssembly": "MustangRobotics.Presentation",
   "resources": {
-    "hash": "sha256-AY+RD5NbjyqA8J1saOsfZdopy0FAMy63gv1ZZFTRM7A=",
+    "hash": "sha256-yK0+4rtRJw48V15ttZI46sEhRZ0lLfzPbIPRGqQngJg=",
     "runtime": {
       "dotnet.js": "sha256-pu7MO47B6So4jcW6iY2UI11lBZYz2EQnJKiYNsOpNJg=",
       "dotnet.timezones.blat": "sha256-vrFYQt55a4tGoDGoyRfjjGa1nSecx646RK78iTzPWCM=",
@@ -26,7 +26,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-n6QXvHqKTYmcHREWBgDipYiI62mvGVnLUG7SK8MMERg=",
       "Microsoft.JSInterop.dll": "sha256-TX37n/oZuwbxon0jEeZe3hVy+DFt7BlG4wLFHOpqfVQ=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-rGa6H5j58fG6csDkI5u0yETHGykCWUdpBDSsSikFcrY=",
-      "MustangRobotics.Presentation.dll": "sha256-IsKPVjesv1ukjraAWJhodeSA/DaYg/JLhWeK2732v9A=",
+      "MustangRobotics.Presentation.dll": "sha256-38LpTYD8nFw2AEMPM2Tp1qgC8moXo9XaPWqX5c9tZm4=",
       "System.Collections.Concurrent.dll": "sha256-we5Yni8AjkcaKDmg8bGlkGtK5TwXxvhI9EBdjCDLE9Y=",
       "System.Collections.dll": "sha256-Zjm3IaU2G2FvqbDANKQkD5K+Bmeu/kYIMAznLGV/VgE=",
       "System.ComponentModel.dll": "sha256-dvbPo00eH/5dUvhVdE5ZeM6fSghPuqrJXBfMzIcBzYE=",
