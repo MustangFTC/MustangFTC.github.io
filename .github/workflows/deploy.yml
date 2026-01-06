@@ -1,7 +1,7 @@
 name: Build and Deploy Blazor WASM
 
 on:
-  push: 
+  push:
     branches:
       - master
 
@@ -27,8 +27,7 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT }}
           publish_dir: ./publish/wwwroot
           publish_branch: gh-pages
-          # Clean old files so only publish output remains
           force_orphan: true
